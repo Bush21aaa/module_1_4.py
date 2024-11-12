@@ -1,0 +1,7 @@
+my_string = input('Введите произвольный текст: ')
+print('Количество символов введённого теста: ' + str(len(my_string)))
+print('В верхнем регистре: ' + my_string.upper())
+print('В нижнем регистре: ' + my_string.lower())
+print('Без пробелов: '+ my_string .replace (' ', ''))
+print('Первый симол: '+ my_string[0])
+print('Последний символ: '+ my_string[-1])
